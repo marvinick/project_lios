@@ -1,0 +1,22 @@
+ <!doctype html>
+ <html ng-app="projectLios">
+ <head>
+    <meta charset="UTF-8">
+    <title>Soil</title>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/PostsController.js"></script>
+    <script src="controllers/HeadersController.js"></script>
+    <script src="services/PostsFactory.js"></script>
+    <script src="services/UtilitiesFactory.js"></script>
+    <script src="directives/myDirectives.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div ui-view="header"></div>
+    <div ui-view="body"></div>
+  </div>
+</body>
+</html>

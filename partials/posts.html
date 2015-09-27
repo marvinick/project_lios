@@ -1,0 +1,23 @@
+<div ng-show="posts.length">
+
+  <h1>Posts:</h1>
+  <ul>
+    <li ng-repeat="item in posts">
+      <h4>{{ item.title }}</h4>
+    </li>
+  </ul>
+</div>
+</div>
+
+  <div class="col-md-4">
+    <h3>Add Post</h3>
+    <form ng-submit="PostsFactory.addPost()" class="form-inline" role="form">
+      <div class="form-group">
+        <input type="text" ng-model="PostsFactory.postTitle" class="form-control" placeholder="Enter a post">
+      </div>
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+  </div>
+
+
+<div ui-view="body"> </div>
