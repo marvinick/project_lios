@@ -21,7 +21,7 @@ projectLios.config(function($stateProvider, $urlRouterProvider) {
         templateUrl: 'partials/header.html',
       },
       'body': {
-        templateUrl: "partials/posts.html",
+        templateUrl: 'partials/posts.html',
         controller: 'PostsCtrl'
       }
     }

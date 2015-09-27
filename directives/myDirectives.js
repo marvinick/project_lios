@@ -1,6 +1,6 @@
 projectLios.directive("hometext", function() {
   return {
-    template: "Back to the beginning"
+    template: "home"
   }
 });
 
